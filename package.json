@@ -1,11 +1,19 @@
 {
-  "name": "eslint-config-20i",
+  "name": "@20i/eslint-config",
   "version": "1.0.0",
   "description": "ESLint and Prettier Config for Twenty Ideas",
   "main": "index.js",
   "author": "Greg McKelvey <mckelveygreg@gmail.com>",
   "license": "MIT",
-  "packageManager": "yarn@3.0.2",
+  "repository": "https://github.com/twentyideas/eslint-config-20i.git",
+  "keywords": [
+    "typescript",
+    "eslint",
+    "lint",
+    "config",
+    "prettier",
+    "react"
+  ],
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",

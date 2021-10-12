@@ -8,14 +8,14 @@ npx install-peerdeps -D eslint-config-20i
 3. Add the following code to the file.
 ```
 module.exports = {
-  extends: ["eslint-config-20i"],
+  extends: ["@20i/eslint-config"],
   parserOptions: {
     tsconfigRootDir: __dirname,
     project: ["./tsconfig.eslint.json"],
   },
 }
 ```
-> For React projects, use `eslint-config-20i/react` or `20i/react` instead.
+> For React projects, use `@20i/eslint-config/react` instead.
 4. Add a special `tsconfig.json` file to your project: `tsconfig.eslint.json`
 ```
 {
@@ -59,6 +59,6 @@ module.exports = {
 
 ## With Create React App
 1. Install like above
-2. Replace `"react-app"` with `"20i"` in the eslint config either in package.json or in `.eslintrc.js`
+2. Replace `"react-app"` with `"@20i/eslint-config/react"` in the eslint config either in package.json or in `.eslintrc.js`
 
 > Inspired heavily by [eslint-config-wesbos](https://github.com/wesbos/eslint-config-wesbos)
