@@ -1,11 +1,16 @@
 # eslint-config-20i
+
 ## Install
-1. 
+
+1.
+
 ```
-npx install-peerdeps -D eslint-config-20i
-``` 
+npx install-peerdeps -D @20i/eslint-config
+```
+
 2. Create a new file `.eslintrc.js` in the directory of your project.
 3. Add the following code to the file.
+
 ```
 module.exports = {
   extends: ["@20i/eslint-config"],
@@ -15,8 +20,9 @@ module.exports = {
   },
 }
 ```
-> For React projects, use `@20i/eslint-config/react` instead.
-4. Add a special `tsconfig.json` file to your project: `tsconfig.eslint.json`
+
+> For React projects, use `@20i/eslint-config/react` instead. 4. Add a special `tsconfig.json` file to your project: `tsconfig.eslint.json`
+
 ```
 {
   // extend your base config to share compilerOptions, etc
@@ -33,8 +39,10 @@ module.exports = {
 ```
 
 ## Configure VS Code
+
 1. Install the extension `eslint-vscode`
 2. Add the following to your `.vscode/settings.json` file:
+
 ```
   // first organize imports, then have eslint/prettier fix them
   "editor.codeActionsOnSave": ["source.organizeImports", "source.fixAll"],\
@@ -54,10 +62,12 @@ module.exports = {
   "[typescriptreact]": {
     "editor.formatOnSave": false,
   },
-  ```
-  3. Restart VS Code
+```
+
+3. Restart VS Code
 
 ## With Create React App
+
 1. Install like above
 2. Replace `"react-app"` with `"@20i/eslint-config/react"` in the eslint config either in package.json or in `.eslintrc.js`
 
