@@ -21,7 +21,8 @@
     }
     ```
 
-- For React projects, use `@20i/eslint-config/react` instead. 4. Add a special `tsconfig.json` file to your project: `tsconfig.eslint.json`
+4. _**For React projects**, use `@20i/eslint-config/react` instead._  
+Add a special `tsconfig.json` file to your project: `tsconfig.eslint.json`
 
     ```json
     {
