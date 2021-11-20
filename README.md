@@ -24,7 +24,7 @@
 4. _**For React projects**, use `@20i/eslint-config/react` instead._  
 Add a special `tsconfig.json` file to your project: `tsconfig.eslint.json`
 
-    ```json
+    ```jsonc
     {
       // extend your base config to share compilerOptions, etc
       "extends": "./tsconfig.json",
