@@ -7,11 +7,12 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:prettier/recommended",
   ],
   env: {
     node: true,
+    es6: true,
   },
   rules: {
     "@typescript-eslint/interface-name-prefix": "off",

@@ -1,6 +1,6 @@
 {
   "name": "@20i/eslint-config",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "ESLint and Prettier Config for Twenty Ideas",
   "main": "index.js",
   "author": "Greg McKelvey <mckelveygreg@gmail.com>",
@@ -31,38 +31,31 @@
   ],
   "packageManager": "yarn@3.0.2",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.0.0",
-    "@typescript-eslint/parser": "^5.0.0",
-    "eslint": "^8.0.0",
+    "eslint": "^8.3.0",
+    "prettier": "^2.5.0",
+    "typescript": "^4.5.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-config-react-app": "^6.0.0",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.26.1",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "^2.4.1",
-    "typescript": "^4.4.3"
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0"
   },
   "devDependencies": {
     "@types/is-ci": "^3",
     "@types/node": "^16.10.3",
-    "@typescript-eslint/eslint-plugin": "^5.0.0",
-    "@typescript-eslint/parser": "^5.0.0",
-    "eslint": "^8.0.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-config-react-app": "^6.0.0",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.26.1",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "husky": ">=6",
+    "eslint": "^8.3.0",
+    "husky": ">=7.0.4",
     "is-ci": "^3.0.1",
-    "lint-staged": ">=10",
+    "lint-staged": ">=12.1.2",
     "markdownlint": "^0.20.4",
     "markdownlint-cli": "^0.23.2",
     "pinst": ">=2",
-    "prettier": "^2.4.1",
-    "typescript": "^4.4.3"
+    "prettier": "^2.5.0",
+    "typescript": "^4.5.2"
   },
   "scripts": {
     "lint": "yarn eslint --max-warnings=0 --cache --fix \"**/*.{js,ts,jsx,tsx}\"",

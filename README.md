@@ -1,11 +1,21 @@
 # eslint-config-20i
 
-## Install
+## Auto Install
 
-1.
+Use mrm to install all dependencies and add config files
 
 ```
-npx install-peerdeps -D @20i/eslint-config
+npx mrm eslint --preset @20i/mrm-preset
+```
+
+## Manual Install
+
+1. Install dev dependencies:
+
+```bash
+yarn add -D eslint prettier typescript @20i/eslint-config
+# or
+npm i -D eslint prettier typescript @20i/eslint-config
 ```
 
 2. Create a new file `.eslintrc.js` in the directory of your project.
@@ -15,13 +25,15 @@ npx install-peerdeps -D @20i/eslint-config
 module.exports = {
   extends: ["@20i/eslint-config"],
   parserOptions: {
-    tsconfigRootDir: __dirname,
     project: ["./tsconfig.eslint.json"],
   },
+  ignorePatterns: [],
 }
 ```
 
-> For React projects, use `@20i/eslint-config/react` instead. 4. Add a special `tsconfig.json` file to your project: `tsconfig.eslint.json`
+> For React projects, use `@20i/eslint-config/react` instead.
+
+4. Add a special `tsconfig.json` file to your project: `tsconfig.eslint.json` to enable full type checking.
 
 ```
 {
@@ -65,10 +77,5 @@ module.exports = {
 ```
 
 3. Restart VS Code
-
-## With Create React App
-
-1. Install like above
-2. Replace `"react-app"` with `"@20i/eslint-config/react"` in the eslint config either in package.json or in `.eslintrc.js`
 
 > Inspired heavily by [eslint-config-wesbos](https://github.com/wesbos/eslint-config-wesbos)
