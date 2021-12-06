@@ -1,6 +1,6 @@
 {
   "name": "@20i/eslint-config",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "ESLint and Prettier Config for Twenty Ideas",
   "main": "index.js",
   "author": "Greg McKelvey <mckelveygreg@gmail.com>",
@@ -27,6 +27,7 @@
     "index.js",
     ".eslintrc.js",
     "react.js",
+    "react-native.js",
     "tsconfig.json"
   ],
   "packageManager": "yarn@3.0.2",
@@ -42,9 +43,11 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.27.1",
-    "eslint-plugin-react-hooks": "^4.3.0"
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-react-native": "^3.11.0"
   },
   "devDependencies": {
+    "@types/eslint": "^8.2.1",
     "@types/is-ci": "^3",
     "@types/node": "^16.11.11",
     "eslint": "^8.4.0",
