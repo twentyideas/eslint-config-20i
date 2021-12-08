@@ -5,6 +5,7 @@ module.exports = {
   plugins: ["react-native"],
   extends: [
     "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
     "plugin:react-native/all",
     "./.eslintrc.js",
   ],

@@ -1,6 +1,6 @@
 {
   "name": "@20i/eslint-config",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "ESLint and Prettier Config for Twenty Ideas",
   "main": "index.js",
   "author": "Greg McKelvey <mckelveygreg@gmail.com>",
