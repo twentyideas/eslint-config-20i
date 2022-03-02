@@ -23,6 +23,7 @@ module.exports = {
     "./.eslintrc.js",
   ],
   rules: {
+    "react/no-unescaped-entities": "off",
     // copied from eslint-config-react-app in order to remove dependency
     // https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules
     "react/forbid-foreign-prop-types": ["warn", { allowInPropTypes: true }],
