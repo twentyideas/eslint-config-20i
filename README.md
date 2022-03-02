@@ -1,5 +1,8 @@
 # eslint-config-20i
 
+[![publish](https://github.com/twentyideas/eslint-config-20i/actions/workflows/publish.yml/badge.svg)](https://github.com/twentyideas/eslint-config-20i/actions/workflows/publish.yml)
+![npm (scoped)](https://img.shields.io/npm/v/@20i/eslint-config)
+
 ## Auto Install
 
 Use mrm to install all dependencies and add config files
