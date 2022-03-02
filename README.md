@@ -50,14 +50,26 @@ module.exports = {
 }
 ```
 
+5. Add the following to your `.prettierrc` file:
+
+```
+{
+  "endOfLine": "auto",
+  "semi": false,
+  "trailingComma": "es5"
+}
+```
+
 ## Configure VS Code
 
 1. Install the extension `eslint-vscode`
-2. Add the following to your `.vscode/settings.json` file:
+1. Install the extension `prettier-vscode`
+1. Add the following to your `.vscode/settings.json` file:
 
 ```
-  // first organize imports, then have eslint/prettier fix them
-  "editor.codeActionsOnSave": ["source.organizeImports", "source.fixAll"],\
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
 
   // format on save for everything but what prettier will handle through eslint
   "editor.formatOnSave": true,
