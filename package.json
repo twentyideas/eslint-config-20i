@@ -28,7 +28,8 @@
     ".eslintrc.js",
     "react.js",
     "react-native.js",
-    "tsconfig.json"
+    "tsconfig.json",
+    ".prettierrc"
   ],
   "packageManager": "yarn@3.0.2",
   "peerDependencies": {
