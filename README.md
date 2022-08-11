@@ -67,7 +67,7 @@ module.exports = {
 
 1. Install the [`ESlint` extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 1. Install the [`Prettier - Code formatter` extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-1. Add the following to your `.vscode/settings.json` file:
+1. Add the following to your global `~/.vscode/settings.json` file:
     ```jsonc
     {
       "editor.codeActionsOnSave": {
