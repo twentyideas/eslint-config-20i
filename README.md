@@ -53,6 +53,16 @@ npx mrm eslint --preset @20i/mrm-preset
     }
     ```
 
+5. Add the following to your `.prettierrc` file:
+
+    ```json
+    {
+      "endOfLine": "auto",
+      "semi": false,
+      "trailingComma": "es5"
+    }
+    ```
+
 ## Configure VS Code
 
 [1]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
