@@ -34,8 +34,9 @@ npx mrm eslint --preset @20i/mrm-preset
     }
     ```
 
-4. _**For React projects**, use `@20i/eslint-config/react` instead._  
-Add a special `tsconfig.json` file to your project: `tsconfig.eslint.json`
+    ⚠️ _**For React projects**, set `@20i/eslint-config/react` instead._
+
+4. Add a special `tsconfig.json` file to your project: `tsconfig.eslint.json`
 
     ```jsonc
     {
