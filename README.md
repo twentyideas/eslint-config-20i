@@ -75,7 +75,7 @@ npx mrm eslint --preset @20i/mrm-preset
   
     ```sh
     code --install-extension dbaeumer.vscode-eslint && \
-    code --install-extension  esbenp.prettier-vscode
+    code --install-extension esbenp.prettier-vscode
     ```
 
 2. Add the following to your global `~/.vscode/settings.json` file:
