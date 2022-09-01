@@ -5,7 +5,7 @@
 
 ## Auto Install
 
-Use mrm to install all dependencies and add config files
+Use `mrm` to install all dependencies and add config files.
 
 ```sh
 npx mrm eslint --preset @20i/mrm-preset
@@ -21,7 +21,7 @@ npx mrm eslint --preset @20i/mrm-preset
     npm i -D eslint prettier typescript @20i/eslint-config
     ```
 
-2. Create a new file `.eslintrc.js` in the directory of your project.
+2. Create a new file, `.eslintrc.js`, in the directory of your project.
 3. Add the following code to the file.
 
     ```js
@@ -77,7 +77,7 @@ npx mrm eslint --preset @20i/mrm-preset
       "editor.codeActionsOnSave": {
         "source.fixAll": true
       },
-      // format on save for everything but what prettier will handle through eslint
+      // format on save for everything, but what prettier will handle through eslint
       "editor.formatOnSave": true,
       "[javascriptreact]": {
         "editor.formatOnSave": false,
