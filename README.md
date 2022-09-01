@@ -68,9 +68,17 @@ npx mrm eslint --preset @20i/mrm-preset
 [1]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 [2]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 
-1. Install the [`ESlint` extension][1]
-2. Install the [`Prettier - Code formatter` extension][2]
-3. Add the following to your global `~/.vscode/settings.json` file:
+1. Make sure these extensions are installed:
+   - [ESlint][1]
+   - [Prettier - Code formatter][2]
+   - Install from the links above or _via terminal:_  
+  
+    ```sh
+    code --install-extension dbaeumer.vscode-eslint && \
+    code --install-extension  esbenp.prettier-vscode
+    ```
+
+2. Add the following to your global `~/.vscode/settings.json` file:
 
     ```jsonc
     {
@@ -94,7 +102,7 @@ npx mrm eslint --preset @20i/mrm-preset
     }
     ```
 
-4. Restart VS Code
+3. Restart VS Code
 
 ## References
 
