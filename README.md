@@ -96,9 +96,6 @@ npx mrm eslint --preset @20i/mrm-preset
 
 4. Restart VS Code
 
-## With Create React App
+## References
 
-1. Install like above
-2. Replace `"react-app"` with `"@20i/eslint-config/react"` in the eslint config either in package.json or in `.eslintrc.js`
-
-> Inspired heavily by [eslint-config-wesbos](https://github.com/wesbos/eslint-config-wesbos)
+Inspired heavily by [eslint-config-wesbos](https://github.com/wesbos/eslint-config-wesbos)
