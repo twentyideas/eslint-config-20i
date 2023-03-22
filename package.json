@@ -31,7 +31,7 @@
     "tsconfig.json",
     ".prettierrc"
   ],
-  "packageManager": "yarn@3.0.2",
+  "packageManager": "yarn@3.5.0",
   "peerDependencies": {
     "eslint": "^8.28.0",
     "prettier": "^2.7.1",
@@ -55,7 +55,7 @@
     "eslint": "^8.31.0",
     "husky": ">=8.0.3",
     "is-ci": "^3.0.1",
-    "lint-staged": ">=13.1.0",
+    "lint-staged": ">=13.2.0",
     "markdownlint": "^0.27.0",
     "markdownlint-cli": "^0.32.2",
     "pinst": ">=3.0.0",
