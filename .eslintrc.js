@@ -25,5 +25,6 @@ module.exports = {
       "warn",
       { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
     ],
+    "@typescript-eslint/consistent-type-exports": "error"
   },
 }
