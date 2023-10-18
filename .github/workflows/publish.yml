@@ -3,19 +3,18 @@ name: publish
 on:
   release:
     types: [created]
-jobs: 
+jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v3.8.1
         with:
-          node-version: 18
-          registry-url: 'https://registry.npmjs.org'
-          scope: '@20i'
-          cache: yarn
-          cache-dependency-path: yarn.lock
+          node-version-file: .nvmrc
+          registry-url: "https://registry.npmjs.org"
+          scope: "@20i"
+      - run: corepack enable # act doesn't have yarn preinstalled
       - run: yarn
-      - run: npm publish
+      - run: yarn npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
