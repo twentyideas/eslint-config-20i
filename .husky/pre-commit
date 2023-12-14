@@ -10,5 +10,5 @@ if [ -n "$(command -v nvm)" ]; then
 else
   echo >&2 "nvm is recommended, but it's not installed. Consider installing: https://github.com/nvm-sh/nvm - Using system node version"
 fi
-
+corepack enable
 yarn lint-staged --allow-empty
