@@ -31,7 +31,7 @@
     "tsconfig.json",
     ".prettierrc"
   ],
-  "packageManager": "yarn@4.1.1",
+  "packageManager": "yarn@4.4.1",
   "peerDependencies": {
     "eslint": "^8.55.0",
     "prettier": "^3.1.1",
