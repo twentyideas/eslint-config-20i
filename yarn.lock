@@ -22,7 +22,7 @@ __metadata:
     eslint-plugin-jsx-a11y: "npm:^6.10.0"
     eslint-plugin-prettier: "npm:^5.2.1"
     eslint-plugin-react: "npm:^7.36.1"
-    eslint-plugin-react-hooks: "npm:5.1.0-rc-206df66e-20240912"
+    eslint-plugin-react-hooks: "npm:5.1.0-rc.0"
     eslint-plugin-react-native: "npm:^4.1.0"
     globals: "npm:^15.9.0"
     husky: "npm:^9.1.6"
@@ -1102,12 +1102,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:5.1.0-rc-206df66e-20240912":
-  version: 5.1.0-rc-206df66e-20240912
-  resolution: "eslint-plugin-react-hooks@npm:5.1.0-rc-206df66e-20240912"
+"eslint-plugin-react-hooks@npm:5.1.0-rc.0":
+  version: 5.1.0-rc.0
+  resolution: "eslint-plugin-react-hooks@npm:5.1.0-rc.0"
   peerDependencies:
     eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
-  checksum: 10/a2000cb94dfa5578218bda24c933356da772ac9e848c725235c213712a6bc44df5ad981c9b4637627544550bb40e06f145ae000f74aceb1ac737c9d0e174dad7
+  checksum: 10/758361fa40896b4ab96fc611d39ab9e931ead574da28c7486727069ce62bcbee97e0600a9cbe7ff3f39af6b44c81c50abb5b45005e192ac5c4ae624cb6b909db
   languageName: node
   linkType: hard
 
