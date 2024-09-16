@@ -1,6 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-call */
-/* eslint-disable @typescript-eslint/no-var-requires */
+import baseConfig from "./eslint.config.js"
 
-const eslintrc = require("./.eslintrc")
-
-module.exports = eslintrc
+export default baseConfig
