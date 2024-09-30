@@ -1,7 +1,7 @@
-import reactConfig from "eslint-plugin-react"
-import jsxA11y from "eslint-plugin-jsx-a11y"
-import globals from "globals"
 import { FlatCompat } from "@eslint/eslintrc"
+import jsxA11y from "eslint-plugin-jsx-a11y"
+import reactConfig from "eslint-plugin-react"
+import globals from "globals"
 import tsEslint from "typescript-eslint"
 
 const compat = new FlatCompat()
