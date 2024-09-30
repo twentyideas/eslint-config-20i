@@ -34,6 +34,32 @@ export default tsEslint.config(
       "@typescript-eslint/consistent-type-exports": "error",
       "@typescript-eslint/no-import-type-side-effects": "error",
       "@typescript-eslint/consistent-type-imports": "error",
+      "@typescript-eslint/use-unknown-in-catch-callback-variable": "off",
+      "@typescript-eslint/restrict-template-expressions": [
+        "error",
+        {
+          allowAny: true,
+          allowBoolean: true,
+          allowNullish: false,
+          allowNumber: true,
+          allowRegExp: true,
+        },
+      ],
+      "@typescript-eslint/no-confusing-void-expression": [
+        "error",
+        {
+          ignoreArrowShorthand: true,
+          ignoreVoidOperator: true,
+        },
+      ],
+      "@typescript-eslint/no-unused-expressions": [
+        "error",
+        {
+          allowShortCircuit: true,
+          allowTernary: true,
+          enforceForJSX: true,
+        },
+      ],
     },
     languageOptions: {
       globals: {

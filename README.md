@@ -6,7 +6,8 @@
 ## Usage
 
 ```js
-import { baseConfig, reactConfig } from "@20i/eslint-config"
+import baseConfig from "@20i/eslint-config"
+import reactConfig from "@20i/eslint-config/react"
 import pluginQuery from "@tanstack/eslint-plugin-query"
 import tsEslint from "typescript-eslint"
 
