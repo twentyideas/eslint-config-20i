@@ -5,6 +5,8 @@
 
 ## Usage
 
+### eslint.config.js
+
 ```js
 import { baseConfig, reactConfig } from "@20i/eslint-config"
 import pluginQuery from "@tanstack/eslint-plugin-query"
@@ -44,6 +46,25 @@ export default tsEslint.config(
     },
   }
 )
+```
+
+### prettier.config.js
+
+We can share prettier configs now! 🎉
+
+```js
+import sharedConfig from "@20i/eslint-config/prettier.config"
+/**
+ * @see https://prettier.io/docs/en/configuration.html
+ * @type {import("prettier").Config}
+ */
+const config = {
+  ...sharedConfig,
+  // override any shared config here
+  arrowParens: "avoid",
+}
+
+export default config
 ```
 
 ## Configure VS Code
@@ -149,6 +170,7 @@ npx mrm eslint --preset @20i/mrm-preset
    {
      "endOfLine": "auto",
      "semi": false,
-     "trailingComma": "es5"
+     "trailingComma": "es5",
+     "plugins": ["prettier-plugin-organize-imports"]
    }
    ```

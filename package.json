@@ -1,12 +1,13 @@
 {
   "name": "@20i/eslint-config",
-  "version": "4.0.0-rc.1",
+  "version": "4.0.0",
   "description": "ESLint and Prettier Config for Twenty Ideas",
   "main": "index.js",
   "exports": {
     "./react": "./react.js",
     "./react-native": "./react-native.js",
-    ".": "./index.js"
+    ".": "./index.js",
+    "./prettier.config": "./prettier.config.js"
   },
   "type": "module",
   "author": "Greg McKelvey <mckelveygreg@gmail.com>",
@@ -35,7 +36,7 @@
     "react.js",
     "react-native.js",
     "tsconfig.json",
-    ".prettierrc",
+    "prettier.config.js",
     "*.d.ts"
   ],
   "packageManager": "yarn@4.4.1",
