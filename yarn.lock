@@ -29,7 +29,7 @@ __metadata:
     is-ci: "npm:^3.0.1"
     lint-staged: "npm:^15.2.10"
     markdownlint: "npm:^0.36.1"
-    markdownlint-cli: "npm:^0.42.0"
+    markdownlint-cli: "npm:^0.43.0"
     pinst: "npm:^3.0.0"
     prettier: "npm:^3.3.3"
     prettier-plugin-organize-imports: "npm:^4.0.0"
@@ -1481,13 +1481,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-stdin@npm:~9.0.0":
-  version: 9.0.0
-  resolution: "get-stdin@npm:9.0.0"
-  checksum: 10/5972bc34d05932b45512c8e2d67b040f1c1ca8afb95c56cbc480985f2d761b7e37fe90dc8abd22527f062cc5639a6930ff346e9952ae4c11a2d4275869459594
-  languageName: node
-  linkType: hard
-
 "get-stream@npm:^8.0.1":
   version: 8.0.1
   resolution: "get-stream@npm:8.0.1"
@@ -2214,31 +2207,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint-cli@npm:^0.42.0":
-  version: 0.42.0
-  resolution: "markdownlint-cli@npm:0.42.0"
+"markdownlint-cli@npm:^0.43.0":
+  version: 0.43.0
+  resolution: "markdownlint-cli@npm:0.43.0"
   dependencies:
     commander: "npm:~12.1.0"
-    get-stdin: "npm:~9.0.0"
     glob: "npm:~11.0.0"
     ignore: "npm:~6.0.2"
     js-yaml: "npm:^4.1.0"
     jsonc-parser: "npm:~3.3.1"
     jsonpointer: "npm:5.0.1"
-    markdownlint: "npm:~0.35.0"
+    markdownlint: "npm:~0.36.1"
     minimatch: "npm:~10.0.1"
     run-con: "npm:~1.3.2"
-    smol-toml: "npm:~1.3.0"
+    smol-toml: "npm:~1.3.1"
   bin:
     markdownlint: markdownlint.js
-  checksum: 10/83d5bc959f35dc09b47592ac1073f976c20cbdd62f5b0f6412fbcd3ca71c14c58968a5850372f00af47539fa3a2980650660baa985cfc623dc4c36e1b7b045e6
-  languageName: node
-  linkType: hard
-
-"markdownlint-micromark@npm:0.1.10":
-  version: 0.1.10
-  resolution: "markdownlint-micromark@npm:0.1.10"
-  checksum: 10/d4449f1010e40d0619a25d9292a8b8f50ba264d23195798e802b559625e5f3ad0a2e350b15655dba2e23522cea62efd05df260ef6c5bc65a4f2de9b9e2a3d81a
+  checksum: 10/380246dce8de271c2957eb810b855cbc47129eb1d428fbcf3fb3213777458105e74672e3e975301f39b0b342a96996e4ff185ca8dfd621f8fc81f1fa4617c8b8
   languageName: node
   linkType: hard
 
@@ -2249,23 +2234,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint@npm:^0.36.1":
+"markdownlint@npm:^0.36.1, markdownlint@npm:~0.36.1":
   version: 0.36.1
   resolution: "markdownlint@npm:0.36.1"
   dependencies:
     markdown-it: "npm:14.1.0"
     markdownlint-micromark: "npm:0.1.12"
   checksum: 10/36606c186293d3879d6890505310d82943de62370047a8bd92800e134c54b51f9c2bba270aacc23df7a844287deefbbc73457aebe2c7a49d58b38f1bf4fe94aa
-  languageName: node
-  linkType: hard
-
-"markdownlint@npm:~0.35.0":
-  version: 0.35.0
-  resolution: "markdownlint@npm:0.35.0"
-  dependencies:
-    markdown-it: "npm:14.1.0"
-    markdownlint-micromark: "npm:0.1.10"
-  checksum: 10/5aceb6b0d4eb6147d8c7f3b5a4804a2aa1f73f5fe46058bb58500eee7b5ca4e62bdb510039ff5680d3f0313bdb69e4f3c107af07bb6f741f9ce72d7d6c562df2
   languageName: node
   linkType: hard
 
@@ -2888,10 +2863,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"smol-toml@npm:~1.3.0":
-  version: 1.3.0
-  resolution: "smol-toml@npm:1.3.0"
-  checksum: 10/dc3e49a9202abca4a60c352ff48c8088a0c48886924b81a0fbab8c66d4575aaa1867f4eac783acea00dcfa34047ccd22634040d2282f9ccb05dc73511c1b0e4e
+"smol-toml@npm:~1.3.1":
+  version: 1.3.1
+  resolution: "smol-toml@npm:1.3.1"
+  checksum: 10/b999828ea46cf44ae90b6293884d6a139dfb4545ac6f86cbd1002568a943a43d8895ad82413855d095eec0c0bc21d23413c0a25a26c7fad6395c2ce42c2fdbd0
   languageName: node
   linkType: hard
 
