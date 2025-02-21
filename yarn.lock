@@ -28,7 +28,7 @@ __metadata:
     husky: "npm:^9.1.7"
     is-ci: "npm:^4.1.0"
     lint-staged: "npm:^15.4.3"
-    markdownlint: "npm:^0.36.1"
+    markdownlint: "npm:^0.37.4"
     markdownlint-cli: "npm:^0.44.0"
     pinst: "npm:^3.0.0"
     prettier: "npm:^3.5.1"
@@ -2376,24 +2376,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint-micromark@npm:0.1.12":
-  version: 0.1.12
-  resolution: "markdownlint-micromark@npm:0.1.12"
-  checksum: 10/99d753b4dafa3c390b96332d02658112eeb131644ff4ab55a2320557a0d52b038998be5a5b5f9c450fdfc25d7c4701f56b36116f114cec1ff191410a0b0e4997
-  languageName: node
-  linkType: hard
-
-"markdownlint@npm:^0.36.1":
-  version: 0.36.1
-  resolution: "markdownlint@npm:0.36.1"
-  dependencies:
-    markdown-it: "npm:14.1.0"
-    markdownlint-micromark: "npm:0.1.12"
-  checksum: 10/36606c186293d3879d6890505310d82943de62370047a8bd92800e134c54b51f9c2bba270aacc23df7a844287deefbbc73457aebe2c7a49d58b38f1bf4fe94aa
-  languageName: node
-  linkType: hard
-
-"markdownlint@npm:~0.37.4":
+"markdownlint@npm:^0.37.4, markdownlint@npm:~0.37.4":
   version: 0.37.4
   resolution: "markdownlint@npm:0.37.4"
   dependencies:
