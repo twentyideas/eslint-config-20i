@@ -39,7 +39,7 @@
     "prettier.config.js",
     "*.d.ts"
   ],
-  "packageManager": "yarn@4.4.1",
+  "packageManager": "yarn@4.6.0",
   "peerDependencies": {
     "eslint": ">= 9 || < 10",
     "prettier": ">= 3 || < 4",
