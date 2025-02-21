@@ -78,7 +78,7 @@
   "scripts": {
     "lint": "yarn eslint --max-warnings=0 --cache --fix \"**/*.{js,ts,jsx,tsx}\"",
     "lint:markdown": "markdownlint --config linters/.markdownlint.json README.md */README.md",
-    "postinstall": "is-ci || husky install",
+    "postinstall": "is-ci || (command -v husky >/dev/null 2>&1 && husky init || echo 'Husky is not installed, skipping husky init.')",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable"
   },
