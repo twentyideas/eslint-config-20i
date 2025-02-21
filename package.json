@@ -67,7 +67,7 @@
     "eslint": "^9.20.1",
     "eslint-plugin-react-native": "^4.1.0",
     "husky": "^9.1.7",
-    "is-ci": "^3.0.1",
+    "is-ci": "^4.1.0",
     "lint-staged": "^15.4.3",
     "markdownlint": "^0.36.1",
     "markdownlint-cli": "^0.44.0",
