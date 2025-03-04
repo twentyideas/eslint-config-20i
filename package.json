@@ -46,7 +46,7 @@
     "typescript": ">= 5 || < 6"
   },
   "dependencies": {
-    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/eslintrc": "^3.3.0",
     "eslint-config-prettier": "^10.0.2",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-prettier": "^5.2.3",
@@ -60,7 +60,7 @@
     "@eslint/js": "^9.21.0",
     "@types/eslint": "^9.6.1",
     "@types/eslint-plugin-jsx-a11y": "^6.10.0",
-    "@types/eslint__eslintrc": "^2.1.2",
+    "@types/eslint__eslintrc": "^3.3.0",
     "@types/eslint__js": "^9.14.0",
     "@types/is-ci": "^3.0.4",
     "@types/node": "^22.13.8",

@@ -9,11 +9,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@20i/eslint-config@workspace:."
   dependencies:
-    "@eslint/eslintrc": "npm:^3.2.0"
+    "@eslint/eslintrc": "npm:^3.3.0"
     "@eslint/js": "npm:^9.21.0"
     "@types/eslint": "npm:^9.6.1"
     "@types/eslint-plugin-jsx-a11y": "npm:^6.10.0"
-    "@types/eslint__eslintrc": "npm:^2.1.2"
+    "@types/eslint__eslintrc": "npm:^3.3.0"
     "@types/eslint__js": "npm:^9.14.0"
     "@types/is-ci": "npm:^3.0.4"
     "@types/node": "npm:^22.13.8"
@@ -94,24 +94,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/eslintrc@npm:^3.2.0":
-  version: 3.2.0
-  resolution: "@eslint/eslintrc@npm:3.2.0"
-  dependencies:
-    ajv: "npm:^6.12.4"
-    debug: "npm:^4.3.2"
-    espree: "npm:^10.0.1"
-    globals: "npm:^14.0.0"
-    ignore: "npm:^5.2.0"
-    import-fresh: "npm:^3.2.1"
-    js-yaml: "npm:^4.1.0"
-    minimatch: "npm:^3.1.2"
-    strip-json-comments: "npm:^3.1.1"
-  checksum: 10/b32dd90ce7da68e89b88cd729db46b27aac79a2e6cb1fa75d25a6b766d586b443bfbf59622489efbd3c6f696f147b51111e81ec7cd23d70f215c5d474cad0261
-  languageName: node
-  linkType: hard
-
-"@eslint/eslintrc@npm:^3.3.0":
+"@eslint/eslintrc@npm:*, @eslint/eslintrc@npm:^3.3.0":
   version: 3.3.0
   resolution: "@eslint/eslintrc@npm:3.3.0"
   dependencies:
@@ -273,12 +256,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint__eslintrc@npm:^2.1.2":
-  version: 2.1.2
-  resolution: "@types/eslint__eslintrc@npm:2.1.2"
+"@types/eslint__eslintrc@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "@types/eslint__eslintrc@npm:3.3.0"
   dependencies:
-    "@types/eslint": "npm:*"
-  checksum: 10/3aa91058e0a37306a98ad28681e6662e66d93462b668a06a0e53ea8cd60d93bd5341e3cb8f57be70fafa747418cb7d4741d0c49d6996914ffe452e6c22097ee9
+    "@eslint/eslintrc": "npm:*"
+  checksum: 10/79479f1160bc4ca1529391485f21d1948b9e84f19ae21be8946628218a11e1bbf3bb5c5b9f93e023b063806313ef46d977c9f24d27346a109a7d4485e5b0d436
   languageName: node
   linkType: hard
 
