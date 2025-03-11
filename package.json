@@ -1,6 +1,6 @@
 {
   "name": "@20i/eslint-config",
-  "version": "4.0.9",
+  "version": "4.0.10",
   "description": "ESLint and Prettier Config for Twenty Ideas",
   "main": "index.js",
   "exports": {
