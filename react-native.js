@@ -1,21 +1,20 @@
-import { FlatCompat } from "@eslint/eslintrc"
+import { fixupPluginRules } from "@eslint/compat"
 import reactConfig from "eslint-plugin-react"
+import reactHooks from "eslint-plugin-react-hooks"
 import reactNative from "eslint-plugin-react-native"
 import globals from "globals"
 import tsEslint from "typescript-eslint"
 
-const compat = new FlatCompat()
-
 /** Untested */
 export default tsEslint.config(
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-member-access
   reactConfig.configs.flat.recommended,
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-member-access
   reactConfig.configs.flat["jsx-runtime"],
-  ...compat.config({
-    extends: ["plugin:react-hooks/recommended", "plugin:react-native/all"],
-  }),
+  reactHooks.configs["recommended-latest"],
   {
+    plugins: {
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
+      "react-native": fixupPluginRules(reactNative),
+    },
     languageOptions: {
       // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
       globals: {

@@ -1,19 +1,13 @@
-import { FlatCompat } from "@eslint/eslintrc"
 import jsxA11y from "eslint-plugin-jsx-a11y"
 import reactConfig from "eslint-plugin-react"
+import reactHooks from "eslint-plugin-react-hooks"
 import globals from "globals"
 import tsEslint from "typescript-eslint"
 
-const compat = new FlatCompat()
-
 export default tsEslint.config(
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-member-access
   reactConfig.configs.flat.recommended,
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-member-access
   reactConfig.configs.flat["jsx-runtime"],
-  ...compat.config({
-    extends: ["plugin:react-hooks/recommended"],
-  }),
+  reactHooks.configs["recommended-latest"],
   jsxA11y.flatConfigs.recommended,
   {
     languageOptions: {
