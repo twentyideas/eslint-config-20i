@@ -28,7 +28,7 @@ __metadata:
     husky: "npm:^9.1.7"
     is-ci: "npm:^4.1.0"
     lint-staged: "npm:^16.1.2"
-    markdownlint: "npm:^0.38.0"
+    markdownlint: "npm:^0.39.0"
     markdownlint-cli: "npm:^0.45.0"
     pinst: "npm:^3.0.0"
     prettier: "npm:^3.6.2"
@@ -2893,7 +2893,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdownlint@npm:^0.38.0, markdownlint@npm:~0.38.0":
+"markdownlint@npm:^0.39.0":
+  version: 0.39.0
+  resolution: "markdownlint@npm:0.39.0"
+  dependencies:
+    micromark: "npm:4.0.2"
+    micromark-core-commonmark: "npm:2.0.3"
+    micromark-extension-directive: "npm:4.0.0"
+    micromark-extension-gfm-autolink-literal: "npm:2.1.0"
+    micromark-extension-gfm-footnote: "npm:2.1.0"
+    micromark-extension-gfm-table: "npm:2.1.1"
+    micromark-extension-math: "npm:3.1.0"
+    micromark-util-types: "npm:2.0.2"
+  checksum: 10/54f6f376fd50ad51320161400bf8acc914c83ce9f999fb7161a677ad9d552265d91845f168da35152003799801c61a007fdc45db7d7337bebf7cc55e5bd9d878
+  languageName: node
+  linkType: hard
+
+"markdownlint@npm:~0.38.0":
   version: 0.38.0
   resolution: "markdownlint@npm:0.38.0"
   dependencies:
