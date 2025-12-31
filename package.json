@@ -64,6 +64,7 @@
     "@types/eslint__js": "^9.14.0",
     "@types/is-ci": "^3.0.4",
     "@types/node": "^24.0.15",
+    "@vitest/ui": "^4.0.16",
     "eslint": "^9.31.0",
     "eslint-plugin-react-native": "^5.0.0",
     "husky": "^9.1.7",
@@ -73,14 +74,19 @@
     "markdownlint-cli": "^0.45.0",
     "pinst": "^3.0.0",
     "prettier": "^3.6.2",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "vitest": "^4.0.16"
   },
   "scripts": {
     "lint": "yarn eslint --max-warnings=0 --cache --fix \"**/*.{js,ts,jsx,tsx}\"",
     "lint:markdown": "markdownlint --config linters/.markdownlint.json README.md */README.md",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui",
     "postinstall": "is-ci || husky init",
     "prepack": "pinst --disable",
-    "postpack": "pinst --enable"
+    "postpack": "pinst --enable",
+    "prepare": "husky"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix"
