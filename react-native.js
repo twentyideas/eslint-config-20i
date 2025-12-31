@@ -5,7 +5,6 @@ import reactNative from "eslint-plugin-react-native"
 import globals from "globals"
 import tsEslint from "typescript-eslint"
 
-/** Untested */
 export default tsEslint.config(
   reactConfig.configs.flat.recommended,
   reactConfig.configs.flat["jsx-runtime"],
